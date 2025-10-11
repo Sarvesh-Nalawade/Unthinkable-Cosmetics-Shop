@@ -1,23 +1,23 @@
 ipykernel
-pandas
+
 
 # API
-fastapi==0.118.3
-uvicorn==0.37.0
+fastapi
+uvicorn
 
 # Data validation & config
-pydantic==2.12.0
-python-dotenv==1.1.1
+pydantic
+python-dotenv
 
 # Data wrangling
-pandas==2.3.3
+pandas
 
 # Embeddings & vector search
-sentence-transformers==5.1.1
-faiss-cpu==1.8.0
+sentence-transformers
+faiss-cpu
 
 # LangChain (v1 alpha APIs + community integrations)
-langchain==1.0.0a11
-langchain-community==0.3.31
+langchain
+langchain-community
 
 # Dataset: https://www.kaggle.com/datasets/susant4learning/nykaacosmeticsproductsreview2021

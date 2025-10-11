@@ -1,0 +1,38 @@
+{
+  "user_id": "u_0001",
+  "brand_affinity": {
+    "Clinique": 0.058823529411764705,
+    "Estee Lauder": 0.058823529411764705,
+    "Garnier": 0.058823529411764705,
+    "Guerlain": 0.058823529411764705,
+    "Himalaya": 0.058823529411764705,
+    "L'Oreal Paris": 0.058823529411764705,
+    "Nykaa Cosmetics": 0.11764705882352941,
+    "O3+": 0.058823529411764705,
+    "Paco Rabanne": 0.058823529411764705,
+    "Paese Cosmetics": 0.058823529411764705,
+    "Pahadi Local": 0.11764705882352941,
+    "Plix": 0.11764705882352941,
+    "Vaadi Herbals": 0.058823529411764705,
+    "Versace": 0.058823529411764705
+  },
+  "category_affinity": {
+    "Brand > Himalaya": 0.058823529411764705,
+    "Health & Wellness > Weight Management > Weight Gain": 0.058823529411764705,
+    "Makeup > Face > Bronzer": 0.058823529411764705,
+    "Makeup > Lips > Lip Stain": 0.11764705882352941,
+    "Men's Store > Wellness > Sports Nutrition": 0.058823529411764705,
+    "NFBA 2020 Nominees Online Sale": 0.058823529411764705,
+    "Natural > Shop By Concern > Anti Aging": 0.058823529411764705,
+    "Nykaa Luxe > Fragrance > Perfumes (EDP/EDT)": 0.17647058823529413,
+    "Nykaa Luxe > Skin > Face > Toner": 0.058823529411764705,
+    "Personal Care > Bath & Shower > Conditioner": 0.058823529411764705,
+    "Personal Care > Bath & Shower > Shampoo": 0.058823529411764705,
+    "Skin > Body Care > Massage Oils": 0.058823529411764705,
+    "Skin > Shop By Concern > Pore Care": 0.058823529411764705,
+    "Skin > Shop By Concern > Skin Dryness": 0.058823529411764705
+  },
+  "price_band_low": 1124.25,
+  "price_band_high": 1873.75,
+  "updated_at": "2025-10-11T23:26:59.387661Z"
+}

@@ -21,3 +21,6 @@ langchain
 langchain-community
 
 # Dataset: https://www.kaggle.com/datasets/susant4learning/nykaacosmeticsproductsreview2021
+
+#UI Streamlit
+streamlit

@@ -17,6 +17,7 @@ The system combines **product recommendation logic** with **LLM-powered explanat
 - Provide users with relevant product recommendations.
 - Explain the reasoning behind each recommendation using a Large Language Model (LLM).
 
+![alt text](./assets/image.png)
 ---
 
 ## ✨ Features

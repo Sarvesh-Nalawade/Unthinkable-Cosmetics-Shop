@@ -13,7 +13,7 @@ st.set_page_config(
     page_icon=":guardsman:", layout="wide"
 )
 
-st.subheader("Unthinkable Assignment", divider="rainbow")
+st.subheader("💄 Unthinkable Cosmetics Recommendation Engine", divider="rainbow")
 
 
 # --------------------------------------------------------------------------------

@@ -1,4 +1,16 @@
-# E-commerce Product Recommender
+# Unthinkable Solutions - Assignment Project :
+# E-commerce Product Recommendation System
+
+## **Submitted by:** Sarvesh Nalawade  
+## **Registration Number:** 22BCE1575  
+
+### **GitHub Repository:** [https://github.com/Sarvesh-Nalawade/Unthinkable-Cosmetics-Shop](https://github.com/Sarvesh-Nalawade/Unthinkable-Cosmetics-Shop)  
+### **Video Demonstration:** [https://drive.google.com/drive/folders/1xRzdADsabVisQR3Nqrn1u6mklXyEn-OH?usp=sharing](https://drive.google.com/drive/folders/1xRzdADsabVisQR3Nqrn1u6mklXyEn-OH?usp=sharing)
+
+
+
+
+
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/)
@@ -7,8 +19,8 @@
 
 ---
 
-## 📖 About the Project
-### Unthinkable Cosmetics Recommender System
+# 📖 About the Project
+## Unthinkable Cosmetics Recommender System
 This project is a complete E-commerce product search and recommendation system. It leverages modern machine learning techniques for semantic search and personalized recommendations. The backend is built with FastAPI, the frontend with Streamlit, and everything is containerized using Docker for easy setup and deployment.
 
 The system combines **product recommendation logic** with **LLM-powered explanations**. It provides personalized product recommendations along with natural language explanations about why each product was suggested.
@@ -168,7 +180,7 @@ docker run -p 8501:8501 --name cont-frontend img-frontend
 ```
 
 ## 🎬 Demo Video
-[Insert your demo video link here]
+[https://drive.google.com/drive/folders/1xRzdADsabVisQR3Nqrn1u6mklXyEn-OH?usp=sharing](https://drive.google.com/drive/folders/1xRzdADsabVisQR3Nqrn1u6mklXyEn-OH?usp=sharing)
 
 ## 📜 License
 This project is for educational and demonstration purposes.

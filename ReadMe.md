@@ -1,15 +1,17 @@
-# Unthinkable Solutions - Assignment Project :
+# Unthinkable Solutions - Assignment Project : 
 # E-commerce Product Recommendation System
 
-## **Submitted by:** Sarvesh Nalawade  
-## **Registration Number:** 22BCE1575  
 
-### **GitHub Repository:** [https://github.com/Sarvesh-Nalawade/Unthinkable-Cosmetics-Shop](https://github.com/Sarvesh-Nalawade/Unthinkable-Cosmetics-Shop)  
-### **Video Demonstration:** [https://drive.google.com/drive/folders/1xRzdADsabVisQR3Nqrn1u6mklXyEn-OH?usp=sharing](https://drive.google.com/drive/folders/1xRzdADsabVisQR3Nqrn1u6mklXyEn-OH?usp=sharing)
+| Sr. | Particular | Details |
+|-----|------------|---------|
+| 1.  | Name       | Sarvesh Nalawade |
+| 2.  | Email ID   | nalawadesarvesh98@gmail.com |
+| 3.  | Reg Number | 22BCE1575 | 
+| 4.  | GitHub Repo | [Sarvesh-Nalawade/Unthinkable-Cosmetics-Shop](https://github.com/Sarvesh-Nalawade/Unthinkable-Cosmetics-Shop) |
+| 5.  | Video Link | [Demo Video](https://drive.google.com/drive/folders/1xRzdADsabVisQR3Nqrn1u6mklXyEn-OH?usp=sharing) |
 
 
-
-
+---
 
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
@@ -29,7 +31,7 @@ The system combines **product recommendation logic** with **LLM-powered explanat
 - Provide users with relevant product recommendations.
 - Explain the reasoning behind each recommendation using a Large Language Model (LLM).
 
-![alt text](./assets/image.png)
+![Dashboard Sample](https://cdn.jsdelivr.net/gh/Sarvesh-Nalawade/Unthinkable-Cosmetics-Shop/assets/image.png)
 ---
 
 ## ✨ Features
@@ -87,15 +89,13 @@ The entire application stack (backend and frontend) can be built and launched wi
 
 ### Clone the repository:
 
-```
-Bash
+```bash
 git clone <your-repository-url>
 cd <repository-directory>
 ```
 ### Build
 Run with Docker Compose: Execute the following command from the root of the project directory. This command will build the images and start the containers.
-```
-Bash
+```bash
 docker-compose up --build
 ```
 
@@ -129,8 +129,7 @@ GET http://localhost:8000/search?q=lipstick
 
 ### Sample Response:
 
-```
-JSON
+```JSON
 {
   "query": "lipstick",
   "category": null,
@@ -158,24 +157,22 @@ If you prefer to run the services without Docker Compose, you can build and run 
 
 
 ### Backend Service
-```
-Bash
+```bash
 ## Build the backend image
 docker build -f Dockerfile.backend -t img-backend .
 ```
 ### Run the backend container
-```
+```bash
 docker run -p 8000:8000 --name cont-backend img-backend
 ```
 ### Frontend Service
-```
-Bash
+```bash
 ## Build the frontend image
 docker build -f Dockerfile.ui -t img-frontend .
 ```
 
 ### Run the frontend container
-```
+```bash
 docker run -p 8501:8501 --name cont-frontend img-frontend
 ```
 

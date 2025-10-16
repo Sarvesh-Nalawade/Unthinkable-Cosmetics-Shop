@@ -1,0 +1,22 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: ut-backend
+    ports:
+      - "8000:8000"
+    # volumes:
+    #   - .:/app   # optional if you want live reload (remove for production)
+    restart: unless-stopped
+
+  ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.ui
+    container_name: ut-ui
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend   # ensures backend starts first
+    restart: unless-stopped

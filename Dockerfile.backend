@@ -1,0 +1,27 @@
+# Get the base python image
+FROM python:3.11-slim
+
+# Load the application code
+WORKDIR /app
+
+# Install the dependencies
+COPY requirements.txt ./requirements.txt
+# COPY requirements_backend.txt ./requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the application code
+COPY data ./data
+COPY dataset ./dataset
+COPY config.py ./config.py
+COPY create_vector_db.py ./create_vector_db.py
+COPY main.py ./main.py
+COPY search_engine.py ./search_engine.py
+
+# Initialize of the project
+RUN python create_vector_db.py
+
+# Expose the port that FastAPI runs on
+EXPOSE 8000
+
+# Command to run the application
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

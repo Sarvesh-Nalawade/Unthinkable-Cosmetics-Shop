@@ -6,7 +6,7 @@ from typing import Optional, List
 from dataclasses import dataclass
 
 
-SERVER_URL = "http://localhost:8000"
+SERVER_URL = "http://ut-backend:8000"
 
 st.set_page_config(
     page_title="Unthinkable Assignment",

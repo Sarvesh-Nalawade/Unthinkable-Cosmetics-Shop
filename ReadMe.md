@@ -1,5 +1,4 @@
 # Unthinkable Solutions - Assignment Project : 
-# E-commerce Product Recommendation System
 
 
 | Sr. | Particular | Details |
@@ -8,10 +7,13 @@
 | 2.  | Email ID   | nalawadesarvesh98@gmail.com |
 | 3.  | Reg Number | 22BCE1575 | 
 | 4.  | GitHub Repo | [Sarvesh-Nalawade/Unthinkable-Cosmetics-Shop](https://github.com/Sarvesh-Nalawade/Unthinkable-Cosmetics-Shop) |
-| 5.  | Video Link | [Demo Video](https://drive.google.com/drive/folders/1xRzdADsabVisQR3Nqrn1u6mklXyEn-OH?usp=sharing) |
+| 5.  | Video Link | [Demo Video](https://drive.google.com/drive/folders/1YGSzRTdgRAmUAxV8jcEx12TUXNJWOEP8?usp=sharing) |
 
 
 ---
+
+
+# E-commerce Product Recommendation System
 
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
@@ -19,7 +21,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=flat&logo=streamlit)](https://streamlit.io/)
 [![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
 
----
+
 
 # 📖 About the Project
 ## Unthinkable Cosmetics Recommender System
@@ -31,7 +33,22 @@ The system combines **product recommendation logic** with **LLM-powered explanat
 - Provide users with relevant product recommendations.
 - Explain the reasoning behind each recommendation using a Large Language Model (LLM).
 
-![Dashboard Sample](https://cdn.jsdelivr.net/gh/Sarvesh-Nalawade/Unthinkable-Cosmetics-Shop/assets/image.png)
+1. Query: lipstick
+  ![Dashboard Sample](https://cdn.jsdelivr.net/gh/Sarvesh-Nalawade/Unthinkable-Cosmetics-Shop/assets/lipstick.png)
+
+
+1. Query: perfume
+  ![Dashboard Sample](https://cdn.jsdelivr.net/gh/Sarvesh-Nalawade/Unthinkable-Cosmetics-Shop/assets/perfume.png)
+
+3. Sample Recommendation Response
+  ![Dashboard Sample](https://cdn.jsdelivr.net/gh/Sarvesh-Nalawade/Unthinkable-Cosmetics-Shop/assets/j2.png)
+
+4. Code Snippet: Load index
+  ![Dashboard Sample](https://cdn.jsdelivr.net/gh/Sarvesh-Nalawade/Unthinkable-Cosmetics-Shop/assets/load_index.png)
+   
+5. Code Snippet: Similarity Search
+  ![Dashboard Sample](https://cdn.jsdelivr.net/gh/Sarvesh-Nalawade/Unthinkable-Cosmetics-Shop/assets/similarity_search.png)
+
 ---
 
 ## ✨ Features
@@ -62,18 +79,18 @@ The system combines **product recommendation logic** with **LLM-powered explanat
 ├── Dockerfile.backend
 ├── Dockerfile.ui
 ├── ReadMe.md
-├── app.py              # Streamlit Frontend
-├── config.py           # Configuration variables
+├── app.py                # Streamlit Frontend
+├── config.py             # Configuration variables
 ├── create_vector_db.py   # Script to build the FAISS index
-├── main.py             # FastAPI Backend
-├── ranking.py          # Re-ranking logic
-├── search_engine.py    # Core similarity search functions
+├── main.py               # FastAPI Backend
+├── ranking.py            # Re-ranking logic
+├── search_engine.py      # Core similarity search functions
 ├── requirements.txt
 ├── data/
 │   └── ...
 ├── dataset/
 │   └── Nykaa_Product_Review_Cleaned.csv
-└── faiss_index/        # Generated vector index
+└── faiss_index/          # Generated vector index
 ```
 
 
@@ -90,8 +107,8 @@ The entire application stack (backend and frontend) can be built and launched wi
 ### Clone the repository:
 
 ```bash
-git clone <your-repository-url>
-cd <repository-directory>
+git clone https://github.com/Sarvesh-Nalawade/Unthinkable-Cosmetics-Shop.git
+cd Unthinkable-Cosmetics-Shop
 ```
 ### Build
 Run with Docker Compose: Execute the following command from the root of the project directory. This command will build the images and start the containers.
@@ -161,10 +178,12 @@ If you prefer to run the services without Docker Compose, you can build and run 
 ## Build the backend image
 docker build -f Dockerfile.backend -t img-backend .
 ```
+
 ### Run the backend container
 ```bash
 docker run -p 8000:8000 --name cont-backend img-backend
 ```
+
 ### Frontend Service
 ```bash
 ## Build the frontend image
@@ -177,7 +196,7 @@ docker run -p 8501:8501 --name cont-frontend img-frontend
 ```
 
 ## 🎬 Demo Video
-[https://drive.google.com/drive/folders/1xRzdADsabVisQR3Nqrn1u6mklXyEn-OH?usp=sharing](https://drive.google.com/drive/folders/1xRzdADsabVisQR3Nqrn1u6mklXyEn-OH?usp=sharing)
+[https://drive.google.com/drive/folders/1YGSzRTdgRAmUAxV8jcEx12TUXNJWOEP8?usp=sharing](https://drive.google.com/drive/folders/1YGSzRTdgRAmUAxV8jcEx12TUXNJWOEP8?usp=sharing)
 
 ## 📜 License
 This project is for educational and demonstration purposes.
